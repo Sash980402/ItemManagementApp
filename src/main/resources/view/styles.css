@@ -1,0 +1,108 @@
+/* General Styles */
+.container {
+    -fx-padding: 20;
+    -fx-background-color: #f9f9f9; /* Light gray background */
+}
+
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Dark gray text */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1); /* Subtle shadow */
+}
+
+/* TableView Styles */
+.table-view {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #dddddd; /* Light gray border */
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0.12, 0, 2); /* Subtle shadow */
+}
+
+.table-view .column-header {
+    -fx-background-color: #0078d7; /* Blue header */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #f9f9f9; /* Light gray rows */
+    -fx-text-fill: #333333; /* Dark gray text */
+    -fx-font-size: 14px;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #e0e0e0; /* Light gray hover effect */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #005a9e; /* Dark blue selection */
+    -fx-text-fill: white;
+}
+
+/* Input Fields and Labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #555555; /* Medium gray text */
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #cccccc; /* Light gray border */
+    -fx-border-width: 1px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.12, 0, 1); /* Subtle shadow */
+}
+
+.text-field:focused {
+    -fx-border-color: #0078d7; /* Blue border on focus */
+    -fx-effect: dropshadow(gaussian, rgba(0, 120, 215, 0.5), 5, 0.12, 0, 1); /* Subtle shadow */
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #0078d7; /* Blue background */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.12, 0, 1); /* Subtle shadow */
+}
+
+.button:hover {
+    -fx-background-color: #005a9e; /* Darker blue on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.12, 0, 2); /* Enhanced shadow */
+}
+
+.button:pressed {
+    -fx-background-color: #004c8c; /* Even darker blue on press */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.12, 0, 1); /* Enhanced shadow */
+}
+
+/* TableView ScrollBar */
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #f9f9f9; /* Light gray track */
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #cccccc; /* Light gray thumb */
+}
+
+.table-view .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #aaaaaa; /* Darker gray thumb on hover */
+}
+
+/* TableView Column Headers */
+.table-view .column-header-background {
+    -fx-background-color: #0078d7; /* Blue header background */
+}
+
+.table-view .column-header-background .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
